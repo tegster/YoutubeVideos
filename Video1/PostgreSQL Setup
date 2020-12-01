@@ -1,0 +1,28 @@
+PostgreSQL Setup Process
+
+Download PostgreSQL Interactive installer by EDB for machine type and choice of version, currently I'm using 12
+
+1. https://www.enterprisedb.com/downloads/postgres-postgresql-downloads 
+
+2. After starting through the Process 
+        Installation directory: C:\Program Files\PostgreSQL\12 
+        Select the components you want to Install -> PostgreSQL Server and Command Line Tools is enough tp start with
+        Data Directory Location 
+
+3. Create a password for the superuser 'postgres', which the system creates and will ask you the set its         
+   password. Superuser is a special user account used for system administration. 
+
+4. The port number the server should listen on. Default: 5432 
+
+5. Default Locale 
+
+ 
+Final:
+Installation Directory: C:\Program Files\PostgreSQL\12 
+Server Installation Directory: C:\Program Files\PostgreSQL\12 
+Data Directory: C:\Program Files\PostgreSQL\12\data 
+Database Port: 5432 
+Database Superuser: postgres 
+Operating System Account: NT AUTHORITY\NetworkService 
+Database Service: postgresql-x64-12 
+Command Line Tools Installation Directory: C:\Program Files\PostgreSQL\12 
